@@ -131,6 +131,7 @@ display: block;
     width: 30px;
     height: 30px;
     color: #09E079;
+    transition: color .3s ease-in-out;
 
 }
 .social-link:hover{
