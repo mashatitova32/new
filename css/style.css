@@ -194,16 +194,18 @@ header nav ul li a{
 .IV{
     padding: 10px;
     background-color: green;
-
+    margin-top: 35px;
 }
 .V{
     padding: 10px;
     background-color: #126A9F;
+    margin-top: 35px;
 }
 .VI{
     padding: 20px 10px 10px 10px;
     background-color: #101781;
     color: white;
+    margin-top: 35px;
 }
 .VII{
     padding: 10px;
