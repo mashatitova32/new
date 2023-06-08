@@ -56,7 +56,7 @@ header nav ul li a{
     display: flex;
     justify-content: center;
     margin: auto;
-    background-image: url("../img/fon.png");
+    background: #000 url("../img/ukrainian.gif");
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -67,7 +67,7 @@ header nav ul li a{
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
-    color: black;
+    color: white;
     text-align: center;
 }
 .banner p{
@@ -75,7 +75,7 @@ header nav ul li a{
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
-    color: black;
+    color: white;
     margin: 30px auto 30px auto;
     text-align: center;
 }
@@ -91,7 +91,6 @@ header nav ul li a{
     border-radius: 25px;
 
 }
-
 .carusel{
     background-color: #edf6f9;
     padding: 50px 0;
@@ -162,7 +161,7 @@ header nav ul li a{
     border-radius: 0px;
 }
 .business article{
-    max-width: 350px;
+    max-width: 386px;
 }
 .business .icons{
     max-width: 240px;
@@ -176,10 +175,14 @@ header nav ul li a{
     font-weight: 500;
     margin: auto auto 20px auto;
 }
+.business article h4{
+    margin-top: 35px;
+}
 .I{
     padding: 10px;
     background-color: #E03C3C;
     margin-top: 35px;
+    width: 386px;
 }
 .II{
     padding: 10px;
@@ -202,10 +205,11 @@ header nav ul li a{
     margin-top: 35px;
 }
 .VI{
-    padding: 20px 10px 10px 10px;
+    padding: 10px;
     background-color: #101781;
     color: white;
     margin-top: 35px;
+    width: 386px;
 }
 .VII{
     padding: 10px;
@@ -230,16 +234,37 @@ header nav ul li a{
     font-weight: 400;
     margin-top: 35px;
 }
+
 .business p{
     margin-top: 10px;
 }
 .business a{
     margin-top: 10px;
+    font-size: 18px;
+}
+.line:before{
+    width: 1199px;
+    position: relative;
+    left: -416px;
+    height: 4px;
+    background-color: blue;
+    display: inline-block;
+    content: "";
+    border-radius: 0px;
+}
+.line:after{
+    width: 1199px;
+    position: relative;
+    left: -416px;
+    height: 4px;
+    background-color: blue;
+    display: inline-block;
+    content: "";
+    border-radius: 0px;
 }
 .form{
     padding: 100px 0;
     background-color: #caf0f8;
-
 }
 .form_text{
     margin-bottom: 25px;
