@@ -1,17 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
     justify-content: space-between;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: auto;
     width: 100%;
 }
+
 header {
     padding: 15px 0;
     background-color: #221EE1;
@@ -19,22 +22,27 @@ header {
     position: fixed;
     z-index: 2;
 }
-header .d-flex{
+
+header .d-flex {
     align-items: center;
 }
-.logo img{
+
+.logo img {
     width: 75px;
     height: 75px;
 }
-header a{
+
+header a {
     text-decoration: none;
     display: flex;
     align-items: center;
 }
-header nav ul li{
+
+header nav ul li {
     list-style: none;
 }
-header nav ul li a{
+
+header nav ul li a {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -43,7 +51,8 @@ header nav ul li a{
     margin-left: 25px;
     font-size: 18px;
 }
-.logo{
+
+.logo {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -52,7 +61,8 @@ header nav ul li a{
     text-decoration: none;
     color: yellow;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -62,7 +72,8 @@ header nav ul li a{
     width: 100%;
     text-align: center;
 }
-.banner h1{
+
+.banner h1 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -70,7 +81,8 @@ header nav ul li a{
     color: white;
     text-align: center;
 }
-.banner p{
+
+.banner p {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
@@ -79,7 +91,8 @@ header nav ul li a{
     margin: 30px auto 30px auto;
     text-align: center;
 }
-.banner a{
+
+.banner a {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -91,11 +104,13 @@ header nav ul li a{
     border-radius: 25px;
 
 }
-.carusel{
+
+.carusel {
     background-color: #edf6f9;
     padding: 50px 0;
 }
-.carusel h2{
+
+.carusel h2 {
     text-align: center;
     font-family: "Roboto";
     font-style: normal;
@@ -103,32 +118,38 @@ header nav ul li a{
     font-size: 30px;
     margin-bottom: 50px;
 }
+
 .carusel article {
     text-align: center;
     margin-left: 0;
 }
-.carusel article p{
+
+.carusel article p {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     margin-top: 15px;
 }
-.carusel a{
+
+.carusel a {
     text-decoration: none;
     color: black;
 }
-.business{
+
+.business {
     padding: 100px 0;
 }
-.business h2{
+
+.business h2 {
     text-align: center;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     margin-bottom: 20px;
 }
-.business h2:before{
+
+.business h2:before {
     width: 100%;
     height: 4px;
     background-color: red;
@@ -136,7 +157,8 @@ header nav ul li a{
     content: "";
     border-radius: 0px;
 }
-.business h2:after{
+
+.business h2:after {
     width: 100%;
     height: 4px;
     background-color: red;
@@ -144,7 +166,8 @@ header nav ul li a{
     content: "";
     border-radius: 0px;
 }
-.business h2.omega:before{
+
+.business h2.omega:before {
     width: 100%;
     height: 4px;
     background-color: blue;
@@ -152,7 +175,8 @@ header nav ul li a{
     content: "";
     border-radius: 0px;
 }
-.business h2.omega:after{
+
+.business h2.omega:after {
     width: 100%;
     height: 4px;
     background-color: blue;
@@ -160,14 +184,17 @@ header nav ul li a{
     content: "";
     border-radius: 0px;
 }
-.business article{
+
+.business article {
     max-width: 386px;
 }
-.business .icons{
+
+.business .icons {
     max-width: 240px;
     margin: auto;
 }
-.business article h3{
+
+.business article h3 {
     text-align: center;
     font-family: "Roboto";
     font-size: 20px;
@@ -176,102 +203,120 @@ header nav ul li a{
     margin: auto auto 20px auto;
 }
 
-.I{
+.I {
     padding: 10px;
     background-color: #E03C3C;
     width: 386px;
 }
-.II{
+
+.II {
     padding: 10px;
     background-color: #DF7F39;
 
     width: 386px;
 }
-.III{
+
+.III {
     padding: 10px;
     background-color: #FFE454;
 
 }
-.IV{
+
+.IV {
     padding: 10px;
     background-color: green;
 }
-.V{
+
+.V {
     padding: 10px;
     background-color: #126A9F;
     margin-top: 50px;
 }
-.VI{
+
+.VI {
     padding: 10px;
     background-color: #101781;
     color: white;
     width: 386px;
     margin-top: 50px;
 }
-.VII{
+
+.VII {
     padding: 10px;
     background-color: #4F2289;
     color: white;
     text-align: center;
     margin-top: 20px;
 }
-.block1{
+
+.block1 {
     height: 25px;
     background-color: #E03C3C;
     margin-top: 20px;
 }
-.block2{
+
+.block2 {
     height: 25px;
     background-color: #DF7F39;
     margin-top: 20px;
 
 }
-.block3{
+
+.block3 {
     height: 25px;
     background-color: #FFE454;
     margin-top: 20px;
 
 }
-.block4{
+
+.block4 {
     height: 25px;
     background-color: green;
     margin-top: 20px;
 }
-.block5{
+
+.block5 {
     height: 25px;
     background-color: #126A9F;
     margin-top: 20px;
 }
-.block6{
+
+.block6 {
     height: 25px;
     background-color: #101781;
     margin-top: 20px;
 }
-.N{
+
+.N {
     height: 500px;
 }
-.A{
+
+.A {
     height: 66px;
 }
-.business img{
+
+.business img {
     width: 75px;
     height: 75px;
 }
-.business h4{
+
+.business h4 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
 }
 
-.business p{
+.business p {
     margin-top: 10px;
 }
-.business a{
+
+.business a {
     margin-top: 10px;
     font-size: 18px;
     text-decoration: none;
 }
-.line{
+
+.line {
     background-color: #e4ecfc;
     width: 386px;
     height: 50px;
@@ -279,34 +324,40 @@ header nav ul li a{
     padding: 10px;
 
 }
-.line1{
+
+.line1 {
     background-color: #e4ecfc;
     width: 1200px;
     height: 50px;
     text-align: center;
     padding: 10px;
 }
-.text1{
+
+.text1 {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     color: black;
 }
-.form{
+
+.form {
     padding: 100px 0;
     background-color: #caf0f8;
 }
-.form_text{
+
+.form_text {
     margin-bottom: 25px;
 }
-.form h3{
+
+.form h3 {
     margin-bottom: 10px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
 }
+
 .form p {
     margin-bottom: 10px;
     font-family: "Roboto";
@@ -314,7 +365,8 @@ header nav ul li a{
     font-weight: 400;
     font-size: 16px;
 }
-.form form input{
+
+.form form input {
     padding: 5px;
     width: 100%;
     border: none;
@@ -322,18 +374,22 @@ header nav ul li a{
     border-radius: 5px;
     height: 35px;
 }
-.form form{
+
+.form form {
     max-width: 350px;
 }
 
 .form form .form-numder input {
-    width: 100%;}
+    width: 100%;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-.form form .textarea{
+
+.form form .textarea {
     padding-left: 5px;
     padding-top: 5px;
     width: 100%;
@@ -343,6 +399,7 @@ input::-webkit-inner-spin-button {
     border: none;
     border-radius: 5px;
 }
+
 .form .subscribe input {
     width: 100%;
     border-radius: 5px;
