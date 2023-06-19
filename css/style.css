@@ -175,47 +175,76 @@ header nav ul li a{
     font-weight: 500;
     margin: auto auto 20px auto;
 }
-.business article h4{
-    margin-top: 35px;
-}
+
 .I{
     padding: 10px;
     background-color: #E03C3C;
-    margin-top: 35px;
     width: 386px;
 }
 .II{
     padding: 10px;
     background-color: #DF7F39;
-    margin-top: 35px;
+
+    width: 386px;
 }
 .III{
     padding: 10px;
     background-color: #FFE454;
-    margin-top: 35px;
+
 }
 .IV{
     padding: 10px;
     background-color: green;
-    margin-top: 35px;
 }
 .V{
     padding: 10px;
     background-color: #126A9F;
-    margin-top: 35px;
+    margin-top: 50px;
 }
 .VI{
     padding: 10px;
     background-color: #101781;
     color: white;
-    margin-top: 35px;
     width: 386px;
+    margin-top: 50px;
 }
 .VII{
     padding: 10px;
     background-color: #4F2289;
     color: white;
     text-align: center;
+    margin-top: 20px;
+}
+.block1{
+    height: 25px;
+    background-color: #E03C3C;
+    margin-top: 20px;
+}
+.block2{
+    height: 25px;
+    background-color: #DF7F39;
+    margin-top: 20px;
+
+}
+.block3{
+    height: 25px;
+    background-color: #FFE454;
+    margin-top: 20px;
+
+}
+.block4{
+    height: 25px;
+    background-color: green;
+    margin-top: 20px;
+}
+.block5{
+    height: 25px;
+    background-color: #126A9F;
+    margin-top: 20px;
+}
+.block6{
+    height: 25px;
+    background-color: #101781;
     margin-top: 20px;
 }
 .N{
@@ -232,7 +261,6 @@ header nav ul li a{
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    margin-top: 35px;
 }
 
 .business p{
@@ -241,26 +269,30 @@ header nav ul li a{
 .business a{
     margin-top: 10px;
     font-size: 18px;
+    text-decoration: none;
 }
-.line:before{
-    width: 1199px;
-    position: relative;
-    left: -416px;
-    height: 4px;
-    background-color: blue;
-    display: inline-block;
-    content: "";
-    border-radius: 0px;
+.line{
+    background-color: #e4ecfc;
+    width: 386px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
 }
-.line:after{
-    width: 1199px;
-    position: relative;
-    left: -416px;
-    height: 4px;
-    background-color: blue;
-    display: inline-block;
-    content: "";
-    border-radius: 0px;
+.line1{
+    background-color: #e4ecfc;
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
+}
+.text1{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
 }
 .form{
     padding: 100px 0;
