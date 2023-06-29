@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+p{
+    font-family: "Roboto";
+    font-style: normal;
+}
 
 .d-flex {
     display: flex;
@@ -306,9 +310,6 @@ header nav ul li a {
     font-weight: 400;
 }
 
-.business p {
-    margin-top: 10px;
-}
 
 .business a {
     margin-top: 10px;
@@ -317,7 +318,7 @@ header nav ul li a {
 }
 
 .line {
-    background-color: #e4ecfc;
+    background-color: #FAEBD7;
     width: 386px;
     height: 50px;
     text-align: center;
@@ -326,7 +327,7 @@ header nav ul li a {
 }
 
 .line1 {
-    background-color: #e4ecfc;
+    background-color: #FAEBD7;
     width: 1200px;
     height: 50px;
     text-align: center;
