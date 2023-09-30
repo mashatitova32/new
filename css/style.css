@@ -143,6 +143,7 @@ header nav ul li a {
 
 .business {
     padding: 100px 0;
+    background-color: #FAEBD7;
 }
 
 .business h2 {
@@ -300,8 +301,8 @@ header nav ul li a {
 }
 
 .business img {
-    width: 75px;
-    height: 75px;
+    width: 90px;
+    height: 90px;
 }
 
 .business h4 {
